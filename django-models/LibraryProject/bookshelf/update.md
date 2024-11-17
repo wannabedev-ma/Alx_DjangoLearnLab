@@ -1,8 +1,11 @@
-<!-- command -->
-In [16]: retrived_book.title = "Nineteen Eighty-Four"
 
-In [17]: retrived_book.save()
+#### `update.md`
 
-<!-- output -->
-In [19]: retrived_book.title
-Out[19]: 'Nineteen Eighty-Four'
+```markdown
+# Update Operation
+
+```python
+# Update the title of the book
+book.title = "Nineteen Eighty-Four"
+book.save()
+book.title  # Expected output: "Nineteen Eighty-Four"
